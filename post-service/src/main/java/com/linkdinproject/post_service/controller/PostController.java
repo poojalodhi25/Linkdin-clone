@@ -2,6 +2,7 @@ package com.linkdinproject.post_service.controller;
 
 import com.linkdinproject.post_service.dto.PostCreateRequestDto;
 import com.linkdinproject.post_service.dto.PostDto;
+import com.linkdinproject.post_service.service.PostService;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
 @RequiredArgsConstructor
 @RequestMapping("/core")
 public class PostController {

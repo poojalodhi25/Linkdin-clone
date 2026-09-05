@@ -1,7 +1,9 @@
 package com.linkdinproject.user_service.utils;
 
-import static org.springframework.security.crypto.bcrypt.BCrypt.gensalt;
-import static org.springframework.security.crypto.bcrypt.BCrypt.hashpw;
+import static org.mindrot.jbcrypt.BCrypt.checkpw;
+import static org.mindrot.jbcrypt.BCrypt.gensalt;
+import static org.mindrot.jbcrypt.BCrypt.hashpw;
+
 
 public class BCrypt {
     public static String hash(String s){
