@@ -1,4 +1,4 @@
-package com.linkdinproject.user_service;
+package com.linkdin_project.DiscoverServer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer
 @SpringBootApplication
-public class UserServiceApplication {
+public class DiscoverServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(DiscoverServerApplication.class, args);
 	}
 
 }
