@@ -5,3 +5,9 @@ target/
 .project
 .settings/
 .env
+# Environment variables
+.env
+
+# Google Cloud credentials
+google-credentials.json
+service-account.json

@@ -1,12 +1,13 @@
-package com.linkdinproject.APIGateway;
+package com.linkdinproject.upload_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiGatewayApplication {
+public class UploadServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiGatewayApplication.class, args);
+		SpringApplication.run(UploadServiceApplication.class, args);
 	}
+
 }

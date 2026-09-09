@@ -1,12 +1,13 @@
-package com.linkdinproject.APIGateway;
+package com.linkdinproject.notification_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiGatewayApplication {
+public class NotificationServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiGatewayApplication.class, args);
+		SpringApplication.run(NotificationServiceApplication.class, args);
 	}
+
 }
