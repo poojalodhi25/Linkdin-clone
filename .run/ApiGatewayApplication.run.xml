@@ -4,12 +4,9 @@
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="com.linkdinproject.APIGateway.ApiGatewayApplication" />
     <module name="APIGateway" />
-    <extension name="coverage">
-      <pattern>
-        <option name="PATTERN" value="com.linkdinproject.APIGateway.*" />
-        <option name="ENABLED" value="true" />
-      </pattern>
-    </extension>
+    <selectedOptions>
+      <option name="environmentVariables" visible="false" />
+    </selectedOptions>
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

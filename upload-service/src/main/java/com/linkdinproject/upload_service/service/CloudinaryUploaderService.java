@@ -9,21 +9,29 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.Map;
 
-//@Service
+@Service
 @Slf4j
 @RequiredArgsConstructor
-public class CloudinaryUploaderService implements UploaderService{
+public class CloudinaryUploaderService implements UploaderService {
 
     private final Cloudinary cloudinary;
 
     @Override
     public String upload(MultipartFile file) {
+
         try {
-            Map uploadResult = cloudinary.uploader().upload(file.getBytes(), Map.of());
-            return uploadResult.get("secure_url").toString();
+
+            Map uploadResult =
+                    cloudinary.uploader()
+                            .upload(file.getBytes(), Map.of());
+
+            return uploadResult
+                    .get("secure_url")
+                    .toString();
+
         } catch (IOException e) {
+
             throw new RuntimeException(e);
         }
-
     }
 }

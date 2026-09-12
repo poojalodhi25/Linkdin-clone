@@ -1,7 +1,8 @@
 package com.linkedinProject.ConnectionService.consumer;
 
+import com.linkdinproject.user_service.event.UserCreatedEvent;
 import com.linkedinProject.ConnectionService.service.PersonService;
-import com.linkedinProject.UserService.event.UserCreatedEvent;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
